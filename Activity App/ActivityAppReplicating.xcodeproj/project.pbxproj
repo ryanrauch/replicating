@@ -21,7 +21,66 @@
 		66C0E41D237302AC00DC1CB1 /* StandChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0E41C237302AC00DC1CB1 /* StandChartView.swift */; };
 		66C0E41F237308D300DC1CB1 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0E41E237308D300DC1CB1 /* RingView.swift */; };
 		66C0E42523730BD600DC1CB1 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0E42423730BD500DC1CB1 /* HostingController.swift */; };
+		97F53D4624455EE300C1F107 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F53D4424455EE300C1F107 /* Interface.storyboard */; };
+		97F53D4824455EE600C1F107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F53D4724455EE600C1F107 /* Assets.xcassets */; };
+		97F53D4F24455EE600C1F107 /* WatchActivityAppReplicating Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 97F53D4E24455EE600C1F107 /* WatchActivityAppReplicating Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97F53D5424455EE600C1F107 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F53D5324455EE600C1F107 /* WatchContentView.swift */; };
+		97F53D5624455EE600C1F107 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F53D5524455EE600C1F107 /* HostingController.swift */; };
+		97F53D5824455EE600C1F107 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F53D5724455EE600C1F107 /* ExtensionDelegate.swift */; };
+		97F53D5A24455EE600C1F107 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F53D5924455EE600C1F107 /* NotificationController.swift */; };
+		97F53D5C24455EE600C1F107 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F53D5B24455EE600C1F107 /* NotificationView.swift */; };
+		97F53D5E24455EE600C1F107 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F53D5D24455EE600C1F107 /* ComplicationController.swift */; };
+		97F53D6024455EE700C1F107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F53D5F24455EE700C1F107 /* Assets.xcassets */; };
+		97F53D6324455EE700C1F107 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F53D6224455EE700C1F107 /* Preview Assets.xcassets */; };
+		97F53D6824455EE700C1F107 /* WatchActivityAppReplicating.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 97F53D4224455EE300C1F107 /* WatchActivityAppReplicating.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97F53D722445608900C1F107 /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0E4122372F2ED00DC1CB1 /* ActivityData.swift */; };
+		97F53D732445608900C1F107 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0E4162372F84100DC1CB1 /* Constants.swift */; };
+		97F53D79244560A000C1F107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66529815235F0A6A004D1557 /* Assets.xcassets */; };
+		97F53D7A2445629200C1F107 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0E41E237308D300DC1CB1 /* RingView.swift */; };
+		97F53D7B244562A700C1F107 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0E4142372F6C600DC1CB1 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97F53D5024455EE600C1F107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66529804235F0A69004D1557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97F53D4D24455EE600C1F107;
+			remoteInfo = "WatchActivityAppReplicating Extension";
+		};
+		97F53D6624455EE700C1F107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66529804235F0A69004D1557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97F53D4124455EE300C1F107;
+			remoteInfo = WatchActivityAppReplicating;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97F53D6C24455EE700C1F107 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				97F53D4F24455EE600C1F107 /* WatchActivityAppReplicating Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F53D7024455EE700C1F107 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				97F53D6824455EE700C1F107 /* WatchActivityAppReplicating.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6652980C235F0A69004D1557 /* ActivityAppReplicating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityAppReplicating.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,10 +99,32 @@
 		66C0E41C237302AC00DC1CB1 /* StandChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandChartView.swift; sourceTree = "<group>"; };
 		66C0E41E237308D300DC1CB1 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		66C0E42423730BD500DC1CB1 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		97F53D4224455EE300C1F107 /* WatchActivityAppReplicating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchActivityAppReplicating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F53D4524455EE300C1F107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		97F53D4724455EE600C1F107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97F53D4924455EE600C1F107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F53D4E24455EE600C1F107 /* WatchActivityAppReplicating Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchActivityAppReplicating Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F53D5324455EE600C1F107 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		97F53D5524455EE600C1F107 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		97F53D5724455EE600C1F107 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		97F53D5924455EE600C1F107 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		97F53D5B24455EE600C1F107 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		97F53D5D24455EE600C1F107 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		97F53D5F24455EE700C1F107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97F53D6224455EE700C1F107 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97F53D6424455EE700C1F107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F53D6524455EE700C1F107 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		66529809235F0A69004D1557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F53D4B24455EE600C1F107 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				6652980E235F0A69004D1557 /* ActivityAppReplicating */,
+				97F53D4324455EE300C1F107 /* WatchActivityAppReplicating */,
+				97F53D5224455EE600C1F107 /* WatchActivityAppReplicating Extension */,
 				6652980D235F0A69004D1557 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				6652980C235F0A69004D1557 /* ActivityAppReplicating.app */,
+				97F53D4224455EE300C1F107 /* WatchActivityAppReplicating.app */,
+				97F53D4E24455EE600C1F107 /* WatchActivityAppReplicating Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +216,41 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		97F53D4324455EE300C1F107 /* WatchActivityAppReplicating */ = {
+			isa = PBXGroup;
+			children = (
+				97F53D4424455EE300C1F107 /* Interface.storyboard */,
+				97F53D4724455EE600C1F107 /* Assets.xcassets */,
+				97F53D4924455EE600C1F107 /* Info.plist */,
+			);
+			path = WatchActivityAppReplicating;
+			sourceTree = "<group>";
+		};
+		97F53D5224455EE600C1F107 /* WatchActivityAppReplicating Extension */ = {
+			isa = PBXGroup;
+			children = (
+				97F53D5324455EE600C1F107 /* WatchContentView.swift */,
+				97F53D5524455EE600C1F107 /* HostingController.swift */,
+				97F53D5724455EE600C1F107 /* ExtensionDelegate.swift */,
+				97F53D5924455EE600C1F107 /* NotificationController.swift */,
+				97F53D5B24455EE600C1F107 /* NotificationView.swift */,
+				97F53D5D24455EE600C1F107 /* ComplicationController.swift */,
+				97F53D5F24455EE700C1F107 /* Assets.xcassets */,
+				97F53D6424455EE700C1F107 /* Info.plist */,
+				97F53D6524455EE700C1F107 /* PushNotificationPayload.apns */,
+				97F53D6124455EE700C1F107 /* Preview Content */,
+			);
+			path = "WatchActivityAppReplicating Extension";
+			sourceTree = "<group>";
+		};
+		97F53D6124455EE700C1F107 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97F53D6224455EE700C1F107 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,15 +261,51 @@
 				66529808235F0A69004D1557 /* Sources */,
 				66529809235F0A69004D1557 /* Frameworks */,
 				6652980A235F0A69004D1557 /* Resources */,
+				97F53D7024455EE700C1F107 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				97F53D6724455EE700C1F107 /* PBXTargetDependency */,
 			);
 			name = ActivityAppReplicating;
 			productName = ActivityAppReplicating;
 			productReference = 6652980C235F0A69004D1557 /* ActivityAppReplicating.app */;
 			productType = "com.apple.product-type.application";
+		};
+		97F53D4124455EE300C1F107 /* WatchActivityAppReplicating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F53D6D24455EE700C1F107 /* Build configuration list for PBXNativeTarget "WatchActivityAppReplicating" */;
+			buildPhases = (
+				97F53D4024455EE300C1F107 /* Resources */,
+				97F53D6C24455EE700C1F107 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97F53D5124455EE600C1F107 /* PBXTargetDependency */,
+			);
+			name = WatchActivityAppReplicating;
+			productName = WatchActivityAppReplicating;
+			productReference = 97F53D4224455EE300C1F107 /* WatchActivityAppReplicating.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		97F53D4D24455EE600C1F107 /* WatchActivityAppReplicating Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F53D6924455EE700C1F107 /* Build configuration list for PBXNativeTarget "WatchActivityAppReplicating Extension" */;
+			buildPhases = (
+				97F53D4A24455EE600C1F107 /* Sources */,
+				97F53D4B24455EE600C1F107 /* Frameworks */,
+				97F53D4C24455EE600C1F107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchActivityAppReplicating Extension";
+			productName = "WatchActivityAppReplicating Extension";
+			productReference = 97F53D4E24455EE600C1F107 /* WatchActivityAppReplicating Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -157,12 +313,18 @@
 		66529804235F0A69004D1557 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Exyte;
 				TargetAttributes = {
 					6652980B235F0A69004D1557 = {
 						CreatedOnToolsVersion = 11.1;
+					};
+					97F53D4124455EE300C1F107 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					97F53D4D24455EE600C1F107 = {
+						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
@@ -180,6 +342,8 @@
 			projectRoot = "";
 			targets = (
 				6652980B235F0A69004D1557 /* ActivityAppReplicating */,
+				97F53D4124455EE300C1F107 /* WatchActivityAppReplicating */,
+				97F53D4D24455EE600C1F107 /* WatchActivityAppReplicating Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +356,25 @@
 				6652981C235F0A6A004D1557 /* LaunchScreen.storyboard in Resources */,
 				66529819235F0A6A004D1557 /* Preview Assets.xcassets in Resources */,
 				66529816235F0A6A004D1557 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F53D4024455EE300C1F107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F53D4824455EE600C1F107 /* Assets.xcassets in Resources */,
+				97F53D79244560A000C1F107 /* Assets.xcassets in Resources */,
+				97F53D4624455EE300C1F107 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F53D4C24455EE600C1F107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F53D6324455EE700C1F107 /* Preview Assets.xcassets in Resources */,
+				97F53D6024455EE700C1F107 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +399,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97F53D4A24455EE600C1F107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F53D5624455EE600C1F107 /* HostingController.swift in Sources */,
+				97F53D5424455EE600C1F107 /* WatchContentView.swift in Sources */,
+				97F53D5A24455EE600C1F107 /* NotificationController.swift in Sources */,
+				97F53D7A2445629200C1F107 /* RingView.swift in Sources */,
+				97F53D5824455EE600C1F107 /* ExtensionDelegate.swift in Sources */,
+				97F53D722445608900C1F107 /* ActivityData.swift in Sources */,
+				97F53D5C24455EE600C1F107 /* NotificationView.swift in Sources */,
+				97F53D5E24455EE600C1F107 /* ComplicationController.swift in Sources */,
+				97F53D732445608900C1F107 /* Constants.swift in Sources */,
+				97F53D7B244562A700C1F107 /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97F53D5124455EE600C1F107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97F53D4D24455EE600C1F107 /* WatchActivityAppReplicating Extension */;
+			targetProxy = 97F53D5024455EE600C1F107 /* PBXContainerItemProxy */;
+		};
+		97F53D6724455EE700C1F107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97F53D4124455EE300C1F107 /* WatchActivityAppReplicating */;
+			targetProxy = 97F53D6624455EE700C1F107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6652981A235F0A6A004D1557 /* LaunchScreen.storyboard */ = {
@@ -225,6 +438,14 @@
 				6652981B235F0A6A004D1557 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		97F53D4424455EE300C1F107 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F53D4524455EE300C1F107 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -350,14 +571,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ActivityAppReplicating/Preview Content\"";
-				DEVELOPMENT_TEAM = FZXCM5CJ7P;
+				DEVELOPMENT_TEAM = WA5VM4UCLL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ActivityAppReplicating/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.exyte.ActivityAppReplicating;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrauch.ActivityAppReplicating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,17 +591,103 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ActivityAppReplicating/Preview Content\"";
-				DEVELOPMENT_TEAM = FZXCM5CJ7P;
+				DEVELOPMENT_TEAM = WA5VM4UCLL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ActivityAppReplicating/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.exyte.ActivityAppReplicating;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrauch.ActivityAppReplicating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97F53D6A24455EE700C1F107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchActivityAppReplicating Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WA5VM4UCLL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WatchActivityAppReplicating Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrauch.ActivityAppReplicating.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		97F53D6B24455EE700C1F107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchActivityAppReplicating Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WA5VM4UCLL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WatchActivityAppReplicating Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrauch.ActivityAppReplicating.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		97F53D6E24455EE700C1F107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA5VM4UCLL;
+				IBSC_MODULE = WatchActivityAppReplicating_Extension;
+				INFOPLIST_FILE = WatchActivityAppReplicating/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrauch.ActivityAppReplicating.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		97F53D6F24455EE700C1F107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA5VM4UCLL;
+				IBSC_MODULE = WatchActivityAppReplicating_Extension;
+				INFOPLIST_FILE = WatchActivityAppReplicating/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrauch.ActivityAppReplicating.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
 			};
 			name = Release;
 		};
@@ -401,6 +708,24 @@
 			buildConfigurations = (
 				66529821235F0A6A004D1557 /* Debug */,
 				66529822235F0A6A004D1557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F53D6924455EE700C1F107 /* Build configuration list for PBXNativeTarget "WatchActivityAppReplicating Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F53D6A24455EE700C1F107 /* Debug */,
+				97F53D6B24455EE700C1F107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F53D6D24455EE700C1F107 /* Build configuration list for PBXNativeTarget "WatchActivityAppReplicating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F53D6E24455EE700C1F107 /* Debug */,
+				97F53D6F24455EE700C1F107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
